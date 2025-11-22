@@ -1,0 +1,21 @@
+{
+  "name": "My Language",
+  "scopeName": "source.solo",
+  "fileTypes": ["solo", "duet", "ensemble"],
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#keywords" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        { "name": "comment.line.solo", "match": "//.*$" }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        { "name": "keyword.control.solo", "match": "\\b(fn|let|if|else)\\b" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+MIT License + Palimpsest Free Innovation License v0.8
+
+Copyright (c) 2025 My Language Project Contributors
+
+This software is dual-licensed under the MIT License and the Palimpsest Free
+Innovation License v0.8. You may use, modify, and distribute this software
+under the terms of either license.
+
+================================================================================
+MIT License
+================================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+Palimpsest Free Innovation License v0.8
+================================================================================
+
+PREAMBLE
+
+This license promotes:
+- Radical transparency in development
+- Emotional safety for contributors
+- Political autonomy of software
+- Freedom from surveillance capitalism
+- Reversibility and experimentation
+- Community governance
+
+GRANT OF RIGHTS
+
+1. You may use, study, modify, and distribute this software
+2. You may create derivative works
+3. You may use for commercial purposes
+4. You must preserve attribution and license notices
+
+REQUIREMENTS
+
+1. TRANSPARENCY: All modifications must be documented in CHANGELOG.md
+2. ATTRIBUTION: Maintain MAINTAINERS.md and humans.txt
+3. EMOTIONAL SAFETY: Follow CODE_OF_CONDUCT.md
+4. SECURITY: Report vulnerabilities via .well-known/security.txt
+5. AI TRAINING: Respect .well-known/ai.txt policies
+6. POLITICAL AUTONOMY: No surveillance, tracking, or telemetry without consent
+
+FREEDOMS PROTECTED
+
+1. Fork freedom: Anyone may fork without permission
+2. Reversibility: All changes must be reversible
+3. Offline-first: Software must work without network access
+4. Privacy: No data collection without explicit opt-in
+5. Community: Tri-Perimeter Contribution Framework (TPCF) governance
+
+RESTRICTIONS
+
+1. May not remove or modify license notices
+2. May not add telemetry without explicit user consent
+3. May not require proprietary dependencies
+4. May not restrict downstream users' rights
+
+WARRANTY DISCLAIMER
+
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, EMOTIONAL SAFETY, OR POLITICAL AUTONOMY.
+
+LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES, EMOTIONAL
+DISTRESS, OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
+
+COMMUNITY COVENANT
+
+By using this software, you agree to:
+- Treat all contributors with respect and empathy
+- Prioritize emotional safety in all interactions
+- Support the project's goals of political autonomy
+- Respect the Tri-Perimeter Contribution Framework
+
+INTERPRETATION
+
+This license shall be interpreted in favor of:
+1. User freedom
+2. Community autonomy
+3. Emotional safety
+4. Political independence
+5. Transparency and accountability
+
+For the full Palimpsest License text, see:
+https://palimpsest.license/v0.8/
+
+END OF LICENSE

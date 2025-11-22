@@ -1,6 +1,14 @@
 # My Language: A Progressive Family of Programming Dialects
 
+[![RSR Compliance](https://img.shields.io/badge/RSR-Bronze%20Level-cd7f32?style=flat-square)](./scripts/verify-rsr.sh)
+[![License](https://img.shields.io/badge/License-MIT%20%2B%20Palimpsest-blue?style=flat-square)](./LICENSE.txt)
+[![RFC 9116](https://img.shields.io/badge/RFC%209116-Compliant-green?style=flat-square)](./.well-known/security.txt)
+[![TPCF](https://img.shields.io/badge/TPCF-Perimeter%203-orange?style=flat-square)](./MAINTAINERS.md)
+[![CI](https://img.shields.io/github/workflow/status/Hyperpolymath/me-dialect-playground/CI?style=flat-square)](./.github/workflows/ci.yml)
+
 > **Status**: Active Development | **Research Value**: ~£1M, 3-5 top-tier papers
+>
+> **RSR Bronze**: Memory-safe, type-safe, offline-first with complete compliance
 
 My Language is an innovative family of 4 programming language dialects designed for progressive complexity and multi-paradigm development:
 
@@ -120,9 +128,58 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines.
 
 For AI assistants, see [CLAUDE.md](CLAUDE.md) for project-specific guidance.
 
+## RSR Compliance (Bronze Level)
+
+This project follows the **Rhodium Standard Repository (RSR)** framework for
+high-quality, sustainable software projects.
+
+### ✅ Compliance Checklist
+
+- [x] **Type Safety**: Rust compile-time guarantees
+- [x] **Memory Safety**: Zero unsafe blocks, ownership model
+- [x] **Offline-First**: No network dependencies, works air-gapped
+- [x] **Documentation**: README, LICENSE.txt, SECURITY.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, MAINTAINERS.md, CHANGELOG.md
+- [x] **.well-known/**: security.txt (RFC 9116), ai.txt, humans.txt
+- [x] **Build System**: justfile (30+ recipes), flake.nix, CI/CD
+- [x] **TPCF**: Tri-Perimeter Contribution Framework (Perimeter 3 open)
+- [x] **Dual License**: MIT + Palimpsest Free Innovation License v0.8
+
+### Verify Compliance
+
+```bash
+# Run automated RSR compliance check
+./scripts/verify-rsr.sh
+
+# Or with just
+just rsr-check
+
+# Or with Nix
+nix flake check
+```
+
+### RSR Values
+
+- **Political Autonomy**: No surveillance, no tracking
+- **Emotional Safety**: CCCP (Community Code of Creative Practice)
+- **Reversibility**: Safe experimentation encouraged
+- **Transparency**: Open decision-making, documented reasoning
+- **Community Governance**: TPCF, inclusive contribution
+
+For more details, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
+
 ## License
 
-MIT License - See [LICENSE](LICENSE) for details.
+**Dual Licensed**: MIT + Palimpsest Free Innovation License v0.8
+
+You may use this software under the terms of either license. See [LICENSE.txt](LICENSE.txt) for details.
+
+Key freedoms:
+- ✅ Use for any purpose (including commercial)
+- ✅ Modify and create derivatives
+- ✅ Distribute freely
+- ⚠️ Must preserve attribution (see humans.txt)
+- ⚠️ No telemetry without consent
+- ⚠️ Respect AI training policies (see .well-known/ai.txt)
 
 ## Citation
 

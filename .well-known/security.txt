@@ -1,0 +1,56 @@
+# RFC 9116 Compliant Security.txt
+# https://securitytxt.org/
+
+Contact: mailto:security@my-lang.org
+Contact: https://github.com/Hyperpolymath/me-dialect-playground/security/advisories
+Expires: 2026-11-22T00:00:00.000Z
+Encryption: https://my-lang.org/.well-known/pgp-key.txt
+Preferred-Languages: en
+Canonical: https://github.com/Hyperpolymath/me-dialect-playground/.well-known/security.txt
+
+# Vulnerability Disclosure Policy
+Policy: https://github.com/Hyperpolymath/me-dialect-playground/blob/main/SECURITY.md
+
+# Security Acknowledgments
+Acknowledgments: https://github.com/Hyperpolymath/me-dialect-playground/blob/main/SECURITY.md#security-hall-of-fame
+
+# Hiring (optional)
+# Hiring: https://my-lang.org/careers
+
+# Our Response Timeline:
+# - Initial response: 48 hours
+# - Triage: 7 days
+# - Critical fixes: 7-14 days
+# - Public disclosure: 90 days (coordinated)
+
+# Scope:
+# - Core compiler: crates/lexer, crates/parser, crates/ast, crates/typechecker
+# - Runtime: crates/runtime
+# - Standard library: crates/stdlib (when implemented)
+# - Build tools: justfile, flake.nix
+# - Example code: examples/ (educational only, not production)
+
+# Out of Scope:
+# - Third-party dependencies (report to upstream)
+# - Social engineering attacks
+# - Physical attacks
+# - Hypothetical vulnerabilities (without PoC)
+
+# Bug Bounty: No formal program (community goodwill)
+# Recognition: Security Hall of Fame in SECURITY.md + MAINTAINERS.md
+
+# Security Features:
+# - Memory safety: Rust ownership model
+# - Type safety: Strong static typing
+# - Affine types: Resource safety (opt-in)
+# - Contract verification: Pre/post-conditions
+# - Offline-first: No network dependencies
+# - Reproducible builds: Nix flake
+
+# Known Limitations (see SECURITY.md for details):
+# - Parser: Potential stack overflow on deep nesting
+# - Lexer: No input size limits
+# - Comptime: May not terminate (Turing-complete)
+
+# Last Updated: 2025-11-22
+# Version: 1.0

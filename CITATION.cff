@@ -1,0 +1,30 @@
+# CITATION.cff - Citation File Format for me-dialect-playground
+# https://citation-file-format.github.io/
+# SPDX-License-Identifier: AGPL-3.0-or-later OR LicenseRef-Palimpsest-0.5
+
+cff-version: 1.2.0
+title: "me-dialect-playground"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Polymath"
+    given-names: "Hyper"
+    email: "hyperpolymath@proton.me"
+    affiliation: "Rhodium Standard / Independent Researcher"
+repository-code: "https://github.com/hyperpolymath/me-dialect-playground"
+url: "https://rhodium.sh/projects/me-dialect-playground"
+abstract: "Parser not implemented
+Backend architecture decision needed
+Ensemble variant selection
+Research paper priority order
+No recursion limits in parser design
+No input size limits
+Comptime may not terminate
+Specs, grammars, lexer, AST, examples, docs"
+keywords:
+  - RSR
+  - rhodium-standard
+license: "AGPL-3.0-or-later"
+license-url: "https://github.com/hyperpolymath/me-dialect-playground/blob/main/LICENSE.txt"
+version: "0.1.0"
+date-released: "2025-12-10"

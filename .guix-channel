@@ -1,0 +1,7 @@
+;; me-dialect-playground - Guix Channel
+;; Add to ~/.config/guix/channels.scm
+
+(channel
+ (version 0)
+ (url "https://github.com/hyperpolymath/me-dialect-playground")
+ (branch "main"))

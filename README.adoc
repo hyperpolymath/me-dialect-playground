@@ -1,4 +1,4 @@
-# My Language: A Progressive Family of Programming Dialects
+= My Language: A Progressive Family of Programming Dialects
 
 [![RSR Compliance](https://img.shields.io/badge/RSR-Bronze%20Level-cd7f32?style=flat-square)](./scripts/verify-rsr.sh)
 [![License](https://img.shields.io/badge/License-MIT%20%2B%20Palimpsest-blue?style=flat-square)](./LICENSE.txt)
@@ -6,64 +6,64 @@
 [![TPCF](https://img.shields.io/badge/TPCF-Perimeter%203-orange?style=flat-square)](./MAINTAINERS.md)
 [![CI](https://img.shields.io/github/workflow/status/Hyperpolymath/me-dialect-playground/CI?style=flat-square)](./.github/workflows/ci.yml)
 
-> **Status**: Active Development | **Research Value**: ~£1M, 3-5 top-tier papers
+> *Status*: Active Development | *Research Value*: ~£1M, 3-5 top-tier papers
 >
-> **RSR Bronze**: Memory-safe, type-safe, offline-first with complete compliance
+> *RSR Bronze*: Memory-safe, type-safe, offline-first with complete compliance
 
 My Language is an innovative family of 4 programming language dialects designed for progressive complexity and multi-paradigm development:
 
-- **Me**: Educational HTML-like language for children
-- **Solo**: Core systems language with affine types and modern safety features
-- **Duet**: Solo + neurosymbolic AI integration
-- **Ensemble**: Multi-agent orchestration and collaboration
+- *Me*: Educational HTML-like language for children
+- *Solo*: Core systems language with affine types and modern safety features
+- *Duet*: Solo + neurosymbolic AI integration
+- *Ensemble*: Multi-agent orchestration and collaboration
 
-## Quick Start
+== Quick Start
 
 ```bash
-# Install the My Language toolchain
+= Install the My Language toolchain
 cargo install my-lang
 
-# Run a Solo program
+= Run a Solo program
 my-lang run hello.solo
 
-# Start the REPL
+= Start the REPL
 my-lang repl
 
-# Enable Duet mode (AI integration)
+= Enable Duet mode (AI integration)
 my-lang run --mode=duet ai_example.duet
 
-# Run Ensemble orchestration
+= Run Ensemble orchestration
 my-lang run --mode=ensemble newroom.ensemble
 ```
 
-## Key Features
+== Key Features
 
-### Solo (Core Language)
-- **Affine types** (opt-in): Resource safety without borrow checker complexity
-- **M:N threading**: Efficient concurrency model
-- **Comptime execution**: Turing-complete compile-time metaprogramming
-- **First-class contracts**: Pre/post-conditions with runtime verification
-- **Modern syntax**: Clean, expressive, beginner-friendly
+=== Solo (Core Language)
+- *Affine types* (opt-in): Resource safety without borrow checker complexity
+- *M:N threading*: Efficient concurrency model
+- *Comptime execution*: Turing-complete compile-time metaprogramming
+- *First-class contracts*: Pre/post-conditions with runtime verification
+- *Modern syntax*: Clean, expressive, beginner-friendly
 
-### Duet (AI Integration)
-- **Neurosymbolic AI**: `@synth`, `@verify`, `intent()` for AI-assisted code
-- **Hybrid reasoning**: Combine symbolic logic with neural network inference
-- **AI optimization**: `#[ai_optimize]` attribute for automatic performance tuning
-- **Safe AI boundaries**: Contract-based AI verification
+=== Duet (AI Integration)
+- *Neurosymbolic AI*: `@synth`, `@verify`, `intent()` for AI-assisted code
+- *Hybrid reasoning*: Combine symbolic logic with neural network inference
+- *AI optimization*: `#[ai_optimize]` attribute for automatic performance tuning
+- *Safe AI boundaries*: Contract-based AI verification
 
-### Ensemble (Multi-Agent)
-- **Agent orchestration**: Define collaborative AI agents with roles and capabilities
-- **Belief fusion**: Dempster-Shafer theory for multi-source information aggregation
-- **Workflow automation**: Complex multi-stage pipelines (e.g., journalism, research)
-- **Distributed coordination**: Agents can run across multiple processes/machines
+=== Ensemble (Multi-Agent)
+- *Agent orchestration*: Define collaborative AI agents with roles and capabilities
+- *Belief fusion*: Dempster-Shafer theory for multi-source information aggregation
+- *Workflow automation*: Complex multi-stage pipelines (e.g., journalism, research)
+- *Distributed coordination*: Agents can run across multiple processes/machines
 
-### Me (Educational)
-- **HTML-like syntax**: Familiar structure for young learners
-- **Visual programming**: Interactive playground with immediate feedback
-- **Progressive disclosure**: Start simple, reveal complexity gradually
-- **Safe environment**: Sandboxed execution for educational contexts
+=== Me (Educational)
+- *HTML-like syntax*: Familiar structure for young learners
+- *Visual programming*: Interactive playground with immediate feedback
+- *Progressive disclosure*: Start simple, reveal complexity gradually
+- *Safe environment*: Sandboxed execution for educational contexts
 
-## Project Structure
+== Project Structure
 
 ```
 me-dialect-playground/
@@ -87,7 +87,7 @@ me-dialect-playground/
 └── benchmarks/          # Performance benchmarks
 ```
 
-## Example: Newroom (Journalism Automation)
+== Example: Newroom (Journalism Automation)
 
 The flagship Ensemble demonstration - a multi-agent journalism automation system:
 
@@ -103,17 +103,17 @@ workflow Newroom {
 
 See [examples/ensemble/newroom/](examples/ensemble/newroom/) for the complete implementation.
 
-## Research Contributions
+== Research Contributions
 
 This project explores several novel research directions:
 
-1. **Affine types for practical systems programming** (POPL)
-2. **Neurosymbolic integration in general-purpose languages** (PLDI)
-3. **Multi-agent programming models with belief fusion** (AAMAS)
-4. **Progressive complexity in language design** (CHI)
-5. **Contract-based AI safety verification** (S&P)
+1. *Affine types for practical systems programming* (POPL)
+2. *Neurosymbolic integration in general-purpose languages* (PLDI)
+3. *Multi-agent programming models with belief fusion* (AAMAS)
+4. *Progressive complexity in language design* (CHI)
+5. *Contract-based AI safety verification* (S&P)
 
-## Development Status
+== Development Status
 
 | Dialect  | Grammar | Parser | Compiler | Runtime | Documentation | Status |
 |----------|---------|--------|----------|---------|---------------|--------|
@@ -122,54 +122,54 @@ This project explores several novel research directions:
 | Duet     | ✅      | 🚧     | 🚧       | 🚧      | ✅            | 30% |
 | Ensemble | 🚧      | ⏳     | ⏳       | ⏳      | 🚧            | 20% |
 
-## Contributing
+== Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines.
 
 For AI assistants, see [CLAUDE.md](CLAUDE.md) for project-specific guidance.
 
-## RSR Compliance (Bronze Level)
+== RSR Compliance (Bronze Level)
 
-This project follows the **Rhodium Standard Repository (RSR)** framework for
+This project follows the *Rhodium Standard Repository (RSR)* framework for
 high-quality, sustainable software projects.
 
-### ✅ Compliance Checklist
+=== ✅ Compliance Checklist
 
-- [x] **Type Safety**: Rust compile-time guarantees
-- [x] **Memory Safety**: Zero unsafe blocks, ownership model
-- [x] **Offline-First**: No network dependencies, works air-gapped
-- [x] **Documentation**: README, LICENSE.txt, SECURITY.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, MAINTAINERS.md, CHANGELOG.md
-- [x] **.well-known/**: security.txt (RFC 9116), ai.txt, humans.txt
-- [x] **Build System**: justfile (30+ recipes), flake.nix, CI/CD
-- [x] **TPCF**: Tri-Perimeter Contribution Framework (Perimeter 3 open)
-- [x] **Dual License**: MIT + Palimpsest Free Innovation License v0.8
+- [x] *Type Safety*: Rust compile-time guarantees
+- [x] *Memory Safety*: Zero unsafe blocks, ownership model
+- [x] *Offline-First*: No network dependencies, works air-gapped
+- [x] *Documentation*: README, LICENSE.txt, SECURITY.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, MAINTAINERS.md, CHANGELOG.md
+- [x] *.well-known/*: security.txt (RFC 9116), ai.txt, humans.txt
+- [x] *Build System*: justfile (30+ recipes), flake.nix, CI/CD
+- [x] *TPCF*: Tri-Perimeter Contribution Framework (Perimeter 3 open)
+- [x] *Dual License*: MIT + Palimpsest Free Innovation License v0.8
 
-### Verify Compliance
+=== Verify Compliance
 
 ```bash
-# Run automated RSR compliance check
+= Run automated RSR compliance check
 ./scripts/verify-rsr.sh
 
-# Or with just
+= Or with just
 just rsr-check
 
-# Or with Nix
+= Or with Nix
 nix flake check
 ```
 
-### RSR Values
+=== RSR Values
 
-- **Political Autonomy**: No surveillance, no tracking
-- **Emotional Safety**: CCCP (Community Code of Creative Practice)
-- **Reversibility**: Safe experimentation encouraged
-- **Transparency**: Open decision-making, documented reasoning
-- **Community Governance**: TPCF, inclusive contribution
+- *Political Autonomy*: No surveillance, no tracking
+- *Emotional Safety*: CCCP (Community Code of Creative Practice)
+- *Reversibility*: Safe experimentation encouraged
+- *Transparency*: Open decision-making, documented reasoning
+- *Community Governance*: TPCF, inclusive contribution
 
 For more details, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
-## License
+== License
 
-**Dual Licensed**: MIT + Palimpsest Free Innovation License v0.8
+*Dual Licensed*: MIT + Palimpsest Free Innovation License v0.8
 
 You may use this software under the terms of either license. See [LICENSE.txt](LICENSE.txt) for details.
 
@@ -181,7 +181,7 @@ Key freedoms:
 - ⚠️ No telemetry without consent
 - ⚠️ Respect AI training policies (see .well-known/ai.txt)
 
-## Citation
+== Citation
 
 ```bibtex
 @software{mylanguage2025,
@@ -192,10 +192,10 @@ Key freedoms:
 }
 ```
 
-## Acknowledgments
+== Acknowledgments
 
 This project represents significant research investment (~£1M value) and is designed to produce 3-5 top-tier conference papers and potentially a PhD thesis.
 
 ---
 
-**Built with ❤️ for progressive learning, safety, and AI collaboration**
+*Built with ❤️ for progressive learning, safety, and AI collaboration*

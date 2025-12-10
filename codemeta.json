@@ -1,0 +1,34 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "me-dialect-playground",
+  "name": "me-dialect-playground",
+  "description": "Parser not implemented
+Backend architecture decision needed
+Ensemble variant selection
+Research paper priority order
+No recursion limits in parser design
+No input size limits
+Comptime may not terminate
+Specs, grammars, lexer, AST, examples, docs",
+  "version": "0.1.0",
+  "dateCreated": "2025-12-10",
+  "dateModified": "2025-12-10",
+  "license": "https://spdx.org/licenses/AGPL-3.0-or-later.html",
+  "codeRepository": "https://github.com/hyperpolymath/me-dialect-playground",
+  "issueTracker": "https://github.com/hyperpolymath/me-dialect-playground/issues",
+  "programmingLanguage": ["Guile Scheme"],
+  "developmentStatus": "active",
+  "keywords": ["RSR", "rhodium-standard"],
+  "author": [{
+    "@type": "Person",
+    "givenName": "Hyper",
+    "familyName": "Polymath",
+    "email": "hyperpolymath@proton.me"
+  }],
+  "isPartOf": [{
+    "@type": "SoftwareApplication",
+    "name": "RSR Framework",
+    "url": "https://rhodium.sh"
+  }]
+}
